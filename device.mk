@@ -58,6 +58,10 @@ $(call soong_config_set,surfaceflinger,udfps_lib,//hardware/oneplus:libudfps_ext
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Sensors
+PRODUCT_PACKAGES += \
+    sensors.oneplus
+
 # Inherit from oneplus sdm845-common
 $(call inherit-product, device/oneplus/sdm845-common/common.mk)
 
