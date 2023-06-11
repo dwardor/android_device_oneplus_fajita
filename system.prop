@@ -1,0 +1,2 @@
+# OTA
+lineage.updater.uri=https://c2d.dwardo.fr/LineageOTA/api/v1/{device}/{type}/{incr}
