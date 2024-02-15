@@ -1,2 +1,4 @@
 # OTA
 lineage.updater.uri=https://c2d.dwardo.fr/LineageOTA/api/v1/{device}/{type}/{incr}
+# enable camaera2api (to avoid freeze on taking picture) 
+persist.camera.HAL3.enabled=1
